@@ -51,3 +51,100 @@ name = given_name + " " + first_name
 print(name)
 
 
+
+# %%
+#Changing the value of the variable
+word = input('Please type in a word: ')
+print(word)
+
+word = input('And another word: ')
+print(word)
+
+word = "Third"
+print(word)
+
+#the value assigned to a variable changes each time the variable is assigned a new value. 
+
+word = input('Please type in a word: ')
+print(word)
+
+word = word + "!!!"
+print(word)
+
+
+# %%
+print("We are now back!!!!!   ")
+
+#Integers
+#The following contains a variable age, that contains an Integer
+age = 24
+print(age)
+
+#The quotation marks makes an integer a string 
+#why does it matter?????.....
+
+number_1 = 100
+number_2 ='100'
+
+print(number_1)
+print(number_2)
+#some how on printing it looks the same but it's way different
+
+print(number_1 + number_1)
+print(number_2 + number_2)
+
+#Here's where it matters most:
+#the integer variable takes + operator as an addition 
+#while the string variabke take the + operator as a concatenator
+
+
+# %%
+#Combining values while printing
+
+result = 10 * 25
+print("The result is " + str(result))
+#the "The result is " is a string and the "result is an integer" so combiningthe two 
+#we always have to make an int a str by attaching the str operator!
+
+#the easiest way to fore go the str and the int opertors
+#is by using a comma,
+# the print command has it as an in built function
+
+result = 10 * 25
+print("The result is", result)
+
+# %%
+#Using f strings,
+#this is the easiest way to combine variables
+
+result = 10 * 25
+print(f"The result is {result}")
+#with in the string 
+#the enclosed the curly brackets 
+#is the variable name "results"
+#the value it contains becomes part of the printed string
+
+
+
+
+
+# %%
+#a single string can contain multiple variables
+name = "Tim Tester"
+age = 20
+skill1 = "python"
+level1 = "beginner"
+skill2 = "java"
+level2 = "veteran"
+skill3 = "programming"
+level3 = "semiprofessional"
+lower = 2000
+upper = 3000
+
+print(f"My name is {name}, I am {age} years old.")
+print("my skills are")
+print("- ", skill1, " (", level1, ")")
+print("- ", skill2, " (", level2, ")")
+print("- ", skill3, " (", level3, " )")
+print(f"I am looking for a job with a salary of {lower} - {upper} euros per month")
+# %%
