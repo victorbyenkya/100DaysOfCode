@@ -147,4 +147,41 @@ print("- ", skill1, " (", level1, ")")
 print("- ", skill2, " (", level2, ")")
 print("- ", skill3, " (", level3, " )")
 print(f"I am looking for a job with a salary of {lower} - {upper} euros per month")
+
+
+# %%
+
+#floating numbers refer to numbers with a decimal point
+number1 = 2.5
+number2 = -1.25
+number3 = 3.62
+
+mean = (number1 + number2 + number3) / 3
+print(f"mean: {mean}")
+
+x = 4
+y = 9
+print(f" {x+y} = ")
+
+
+# %%
+#Recap Recap!
+#A simple program which asks the user's name and adress
+
+given_name = input('What is your given name? ')
+family_name = input('What is your family name? ')
+street_address = input('What is your street address? ')
+city_and_postal_code = input('What is your city and postal code? ')
+
+print(f"Given name: {given_name}")
+print(f"Family name: {family_name}")
+print(f"Street address: {street_address}")
+print(f"City and postal code: {city_and_postal_code}")
+
+print(f"{given_name} {family_name}")
+print(street_address)
+print(city_and_postal_code)
+
+
+
 # %%
