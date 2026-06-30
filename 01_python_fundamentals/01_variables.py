@@ -185,3 +185,47 @@ print(city_and_postal_code)
 
 
 # %%
+#making sure we dont print the line change while using the print command
+
+print("Hi ", end="")
+print("there!")
+
+
+# %%
+#Arithmetic operations
+
+print(2 + 3 * 3)
+#the order of operation is similar from mathematics
+#the order changs with parentices
+
+print((2 + 3) * 3)
+
+height = 172.5
+weight = 68.55
+
+## the Body Mass Index, or BMI, 
+##is calculated by dividing body mass with the square of height
+#height is coverted into meters in the formula
+
+bmi = weight / (height / 100) **2
+
+print(f"The BMI is {bmi}")
+
+
+#notice also python has an integer division operator(//)
+
+x = 3
+y = 2
+
+print(f"/Operator = {x/y}")
+print(f"//Opertor = {x//y}")
+
+#Numbers as input
+input_str = input("Which year where you born? ")
+year = int(input_str)
+print(f"Your age at the end of the year 2027: {2027 - year}")
+
+
+
+
+# %%
