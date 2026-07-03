@@ -225,7 +225,29 @@ input_str = input("Which year where you born? ")
 year = int(input_str)
 print(f"Your age at the end of the year 2027: {2027 - year}")
 
+number = int(input("Please type in a number: "))
+print(f"{number} times 5 is {number * 5}")
+
+name = input("What is your name? ")
+year = input("Which year were you born? ")
+print(name)
+print(year)
+print(f"Hi {name} you will be 25 years old by the end of 2027")
 
 
+
+
+# %%
+#Using variables
+number1 = int(input("First number"))
+number2 = int(input("Second number"))
+number3 = int(input("Third number"))
+
+print(number1)
+print(number2)
+print(number3)
+
+sum = number1 + number2 + number3
+print(f"The sum of numbers : {sum}")
 
 # %%
