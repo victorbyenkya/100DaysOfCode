@@ -260,3 +260,34 @@ if age > 17:
 print("Next customer please!")
 
 # %%
+#printing different things based on whether the nature of the number input
+
+number = int(input('Please type in a number: '))
+
+if number > 0:
+    print('The number is positive.')
+
+if number < 0:
+    print('The number is negative')
+
+if number == 0:
+    print('The number is zero.')
+
+# %%
+#Indenting
+
+password = input('Please type in a password: ')
+
+if password == 'kittycat':
+    print('You knew the password!')
+    print('You must be either the intended user.')
+    print('...or quite an accomplished hacker...')
+
+print('The program has been executed. Thank you and bye!.')
+# %%
+number = int(input('Please type in a number: '))
+
+if number == 1984:
+    print('OrWell')
+
+# %%
