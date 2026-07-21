@@ -291,3 +291,54 @@ if number == 1984:
     print('OrWell')
 
 # %%
+#Boolean values and expressions
+a = 3
+condition = a < 5
+print(condition)
+if condition:
+    print('a is less than 5')
+
+condition = True
+if condition:
+    print('This is printed every time.')
+# %%
+
+number1 = int(input('Number 1'))
+print(f'Number 1: number1')
+
+number2 =int(input('Number 2'))
+print(f'Number 2: number2')
+
+print('operation: add')
+#am going to retry this code here in a more correct and meaningful way
+
+# %%
+
+#Asking the user for the input
+num1 = int(input('Number 1: '))
+num2 = int(input('Number 2: '))
+operation = input('Operation: ')
+
+#Check the operation and execute the calculation
+if operation == 'add':
+    print(f"\n{num1} + {num2} = {num1 + num2}")
+
+elif operation == 'multiply':
+    print(f"\n{num1} * {num2} = {num1 * num2}")
+
+elif operation == 'subtract':
+    print(f"\n{num1} - {num2} = {num1 -num2}")
+
+#input() receives the user's text
+#int() converts the input into integer to make the math happen.
+#if\elif check if the user typed add, multiply or sybtract....
+#\ escape character
+# n stands for a new line 
+
+
+
+
+
+
+
+# %%
