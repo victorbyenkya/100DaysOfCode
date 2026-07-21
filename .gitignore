@@ -1,4 +1,13 @@
 .venv/
+<<<<<<< HEAD
+.DS_Store
+.venv/
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+=======
 __pycache__/
 *.pyc
 .DS_Store
+>>>>>>> 37e663ba069107c96ac034f7653c6554ed528719
